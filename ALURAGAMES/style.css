@@ -1,0 +1,60 @@
+body {
+    color: white;
+    background: black;
+    font-family: "Rubik", sans-serif;
+}
+
+header {
+    border-bottom: solid 0.5px;
+    padding-left: 2%;
+    font-size: 32px;
+}
+
+.goty {
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+    background: rgb(245, 191, 90);
+    border-radius: 20px;
+    border-bottom: solid 0.5px
+}
+
+.eldenring {
+    padding-right: 5%;
+    font-size: 20px;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+img {
+    height: 200px;
+    opacity: 0.5;
+}
+
+.naosei {
+    padding: 20px;
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+    justify-content: center;
+    background: lightblue;
+    border-radius: 20px;
+}
+
+img:hover{
+    opacity: 1;
+    height: 300px;
+    transition: 0.1s;
+}
+
+.pq {
+    border-bottom: solid 0.5px;
+}
+
+.meiojogo {
+    padding-left: 10px;
+    margin-top: 100px;
+    border-bottom: solid 0.5px
+}
